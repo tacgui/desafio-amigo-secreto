@@ -2,8 +2,15 @@
 let amigos=[];
 
 
+//
+function limpiar() {
+    amigos=[];
+    modificarElementoHTML("amigo","");
+    modificarElementoHTML("listaAmigos","");
+}
+
 //Funcion que modifica un elemento id de HTML
-function modificarLista(elemento,texto){
+function modificarElementoHTML(elemento,texto){
     let muestraLista = document.getElementById(elemento);
     return muestraLista.innerHTML = texto;
 }
@@ -14,8 +21,9 @@ function mostrarElementosLista(lista) {
     for (let indice = 0; indice < lista.length; indice++) {
         mostrarElementos += `<li>${lista[indice]}</li>`;        
     }
-    return mostrarElementos
+    return mostrarElementos;
 }
+
 
 function agregarAmigo(){
     //Obtiene el nombre sin espacios
@@ -25,6 +33,22 @@ function agregarAmigo(){
         alert("Por favor, ingrese un nombre válido.");
     }else{
         amigos.push(nuevoAmigo);
-        modificarLista("listaAmigos",mostrarElementosLista(amigos));
-    }   
+        modificarElementoHTML("listaAmigos",mostrarElementosLista(amigos));
+    }
+    //Limpiamos el casillero de texto
+    document.getElementById("amigo").value="";
+    return ;
+}
+
+
+function numeroRandom(lista){
+    return Math.floor(Math.random()*lista.length);
+}
+
+
+function sortearAmigo(){
+    let amigoElegido=amigos[numeroRandom(amigos)];
+    modificarElementoHTML("resultado",`El amigo secreto sorteado es: ${amigoElegido}`);
+    limpiar();
+    return ;      
 }

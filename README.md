@@ -8,4 +8,12 @@
 
 - Creamos una funcion que muestre los elementos de una lista a una lista HTML.
 
+- Creamos una funcion que sortee un numero segun numero de elementos de la lista de amigos.
+
+- Creamos una funcion que sortee al amigo elegido.
+
+- Luego de sortear al amigo secreto limpiamos la lista de amigos y la lista de amigos mostrado.
+
+- Luego de agregar un amigo limpiamos el casillero de texto donde obtenemos al nuevo amigo.
+
 - Estado de la aplicación: En construcción.
