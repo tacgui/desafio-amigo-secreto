@@ -71,3 +71,11 @@ Pero siempre estoy abierto a nuevas ideas o mejoras.
 
 <h2>Acceso al Proyecto</h2>
 Link para ingresar a la plataforma: <a href="https://tacgui.github.io/desafio-amigo-secreto/" target="_blank" style="text-decoration: none;"> https://tacgui.github.io/desafio-amigo-secreto/ </a>
+
+<h2>Autor</h2>
+
+| Imagen de Perfil | Usuario | Nombre y Apellidos |
+|------------------|---------|--------------------|
+| <p align="center"><img src="https://github.com/user-attachments/assets/4f7c4b3c-3e93-4471-922a-1e836d784bf0" width="50">| tacgui | Alejandro Arata Barzola </p>|
+
+
