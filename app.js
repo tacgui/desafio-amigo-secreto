@@ -24,8 +24,9 @@ function mostrarElementosLista(lista) {
     return mostrarElementos;
 }
 
-
+//Funcion que agrega a un amigo a la lista de amigos
 function agregarAmigo(){
+    modificarElementoHTML("resultado","");
     //Obtiene el nombre sin espacios
     let nuevoAmigo=document.getElementById("amigo").value.trim();
 
@@ -40,12 +41,12 @@ function agregarAmigo(){
     return ;
 }
 
-
+//Funcion que obtiene un numero ramdom segun la cantidad de elementos de la lista amigos
 function numeroRandom(lista){
     return Math.floor(Math.random()*lista.length);
 }
 
-
+//Funcion que sortea para obtener al amigo elegido.
 function sortearAmigo(){
     let amigoElegido=amigos[numeroRandom(amigos)];
     modificarElementoHTML("resultado",`El amigo secreto sorteado es: ${amigoElegido}`);
