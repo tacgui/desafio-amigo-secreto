@@ -23,6 +23,7 @@
                 <input type="text" id="amigo" class="input-name" placeholder="Escribe un nombre">
                 <button class="button-add" onclick="agregarAmigo()">Añadir</button>
             </div>
+            <h2 class="mensaje-borrar-amigo">Haz click sobre el nombre del amigo que deseas borrar</h2>
            
             <ul id="listaAmigos" class="name-list" aria-labelledby="listaAmigos" role="list"></ul>
             <ul id="resultado" class="result-list" aria-live="polite"></ul>
@@ -32,6 +33,9 @@
                     <img src="assets/play_circle_outline.png" alt="Ícono para sortear">
                     Sortear amigo
                 </button>
+
+                <button class="borrar-lista-amigos" onclick="borrarListaAmigos()">
+                <img src="assets/actualizar.png" alt="Boton Reiniciar"> Reiniciar Sorteo </button>
             </div>
         </section>
     </main>
