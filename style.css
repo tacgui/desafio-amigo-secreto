@@ -3,6 +3,7 @@
     --color-primary: #4B69FD;
     --color-secondary: #FFF9EB;
     --color-tertiary: #C4C4C4;
+    --color-menu: #0d007b;
     --color-borrar: #FF0000;
     --color-button: #fe652b;
     --color-button-hover: #e55720;
@@ -34,14 +35,14 @@ body {
     width: 100%;
 }
 
-/* Banner */
+/* Banner 
 .header-banner {
     flex: 40%;
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 40px 0 0;
-}
+}*/ 
 
 /* Sección de entrada */
 .input-section {
@@ -57,7 +58,12 @@ body {
 }
 
 /* Títulos */
-.main-title {
+.main-content-tittle {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
     font-size: 48px;
     font-family: "Merriweather", serif;
     font-weight: 900;
@@ -66,12 +72,70 @@ body {
 }
 
 .section-title {
+    display: flex;
+    flex-direction: column;
     font-family: "Inter", serif;
     font-size: 36px;
     font-weight: 700;
     color: var(--color-primary);
     margin: 10px 0;
     text-align: center;
+}
+
+.resultado_lista_regalos_titulo{
+    font-family: "Inter", serif;
+    font-size: 36px;
+    font-weight: 700;
+    color: var(--color-primary);
+    margin: 10px 0;
+    text-align: center;
+}
+
+.resultado_lista_regalos_subtitulo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Inter", serif;
+    font-size: 30px;
+    font-weight: 700;
+    color: var(--color-borrar);
+    width: 40%;
+    padding: 2%;
+    gap: 5%;
+    margin: 0 auto;
+    text-align: center;
+    border-radius: 20px;
+    border: 5px solid var(--color-primary);
+    background-color: var(--color-tertiary);
+}
+
+.resultado_lista_regalos_subtitulo img{
+    max-width: 15%;
+}
+
+.resultado_lista_regalos_texto{
+    display: flex;
+    flex-direction: row;
+    margin: 3% auto;
+    align-items: center;
+    justify-content: center;
+    padding: 3%;
+    gap: 5%;
+    border-radius: 20px;
+    border: 2px solid #000000;
+    box-sizing: content-box;
+    font-family: var(--fuente-arbutus);
+    font-size: 1.6em;
+    text-align: center;
+    width: 70%;
+    border: 5px solid var(--color-primary);
+    background-color: var(--color-tertiary);
+    color: var(--color-borrar);
+}
+
+.resultado_lista_regalos_texto img {
+    max-width: 15%;
+    height: auto;
 }
 
 .mensaje-borrar-amigo{
@@ -99,6 +163,35 @@ body {
     border: 2px solid #000;
     border-radius: 25px 0 0 25px;
     font-size: 16px;
+    text-transform: uppercase;
+}
+
+.input-name::placeholder{
+    text-transform: none;
+}
+
+.header-banner-menu{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    text-align: center;
+    background-color: var(--color-menu);
+    justify-content: flex-start;
+}
+
+.header-banner-menu-link{
+    color: var(--color-white) ;
+    text-decoration: none;
+    font-weight:bold;
+    font-size: 1.2em;
+    font-family: var(--fuente-arbutus);
+    gap: 40px;
+    padding: 30px;
+}
+
+.header-banner-menu-link:hover{
+    background-color: var(--color-primary) ;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.9);
 }
 
 .button-container {
@@ -213,6 +306,7 @@ button {
     gap:5%;
     padding: 1% 10%;
     margin-bottom: 3%;
+    box-sizing: bor;
 }
 
 /* Botón de sortear título */
