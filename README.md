@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/f69858e5-439e-48fc-a08e-989892d74b37)<h1 align="CENTER">DESAFIO: AMIGO SECRETO</h1>
+![VISTA_INICIAL_WEB](https://github.com/user-attachments/assets/4356c2d9-6af2-4e10-b3ce-e0ce934aa474)<h1 align="CENTER">DESAFIO: AMIGO SECRETO</h1>
 
 <p align="center">
   <img src="https://github.com/user-attachments/assets/592b8bee-323a-451e-98f4-7ed5012bb51b" alt="LOGO">
@@ -8,77 +8,88 @@
   <img src="https://img.shields.io/badge/HTML-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML Badge">
   <img src="https://img.shields.io/badge/CSS-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS Badge">
   <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript Badge">
-  <img src="https://img.shields.io/badge/Release%20Date-January-blue?style=for-the-badge" alt="Release Date Badge">
+  <img src="https://img.shields.io/badge/Release%20Date-March-blue" alt="Release Date Badge">
 </p>
 
 
 
 <h2>Descripción del Proyecto</h2>
-El proyecto tiene como finalidad ir agregando amigos a una lista y sortearlos para obtener a un amigo elegido. Se añadio por ultimo un boton de reinicio y el de borrar amigos al hacer click en su nombre.
+El proyecto tiene como finalidad ir agregando amigos a una lista y sortearlos para obtener a un amigo elegido o sortearlos para que entre ellos se den regalos. Se añadio por ultimo un boton de reinicio y el de borrar amigos al hacer click en su nombre.
 
 
 
 <h2>Estado del Proyecto</h2>
-Estado: Terminado v1.0. Se desea agregar otra pagina para que entre los amigos se escoja su amigo elegido.
-Cualquier mejora en bienvenida.
+Estado: Terminado v1.1. Ultima actualizacion. Demas actualizaciones seran de errores ortograficos.
+Cualquier mejora es bienvenida.
 
 
 
 <h2>Funcionalidades</h2>
-<b>Funcionalidad 1:</b> Ingresar a la plataforma.
+<b>Funcionalidad 1:</b> Ingresar a la plataforma. Tenemos dos pestañas, una para unico sorteo y otro para que entre los amigos se den regalos.
 <p align="center">
 
-![VISTA_PREVIA_DE_LA_PAGINA_WEB](https://github.com/user-attachments/assets/f69858e5-439e-48fc-a08e-989892d74b37)
+![VISTA_PREVIA_DE_PAGINA](https://github.com/user-attachments/assets/4356c2d9-6af2-4e10-b3ce-e0ce934aa474)
 </p>
+
 
 <b>Funcionalidad 2:</b> Inserta el nombre en la casilla de texto
 <p align="center">
 
-![INGRESA_NOMBRE_DEL_AMIGO](https://github.com/user-attachments/assets/c5c1c62b-448c-4a30-bb11-ab9e9f203f96)
+![INGRESAMOS_NOMBRE_AMIGO](https://github.com/user-attachments/assets/40ce7f48-3e93-41dd-98ce-d7ed6ad8f31e)
 
 </p>
 
-<b>Funcionalidad 3:</b> Presiona el boton de "Añadir", añade el nombre a una lista de amigos y lo muestra en pantalla. Ademas, limpia la casilla de texto y le da un icono.
+<b>Funcionalidad 3:</b> Presiona el boton de "Añadir" o presione "Enter", añade el nombre a una lista de amigos y lo muestra en pantalla. Ademas, limpia la casilla de texto y le da un icono.
 <p align="center">
   
-![NOMBRE_INGRESADO](https://github.com/user-attachments/assets/d5ab441f-2753-4e8f-99aa-6415d13f82f7)
+![NOMBRE_INGRESADO](https://github.com/user-attachments/assets/c0c0b0e6-5960-4e11-b5da-7a22b8fff83f)
 </p>
 
-<b>Funcionalidad 3.1:</b> Es posible que pongas un nombre vacio o solo insertes espacios. Si esto es asi, saldra un mensaje de error que te pedira que ingreses un nombre. Si ingresas un nombre con muchos espacios antes, dentro o despues del nombre, el sistema eliminara el espacio adicional.
+<b>Funcionalidad 3.1:</b> Es posible que pongas un nombre vacio o repetidos. Si esto es asi, saldra un mensaje de error que te pedira que ingreses un nuevo nombre. Si ingresas un nombre con muchos espacios antes, dentro o despues del nombre, el sistema eliminara el espacio adicional.
 <p align="center">
 
-![ERROR_NOMBRE_VACIO](https://github.com/user-attachments/assets/6a830b85-7ff1-430d-862f-c9f2475f1895)
+![ERROR_NOMBRE_VACIO](https://github.com/user-attachments/assets/26076073-99f6-4309-af72-c2fac05850da)
+
+![ERROR_NOMBRE_REPETIDO](https://github.com/user-attachments/assets/b569d9c5-4796-40f2-964e-681018bbaec3)
+
 </p>
 
 <b>Funcionalidad 4:</b> Insertamos todos los nombres de los amigos que tenemos.
 <p align="center">
 
-![INSERTAMOS_NOMBRES_DE_TODOS_LOS_AMIGOS](https://github.com/user-attachments/assets/82d2b2b7-9072-456a-99d4-8988fdea1fbd)
+![INGRESAMOS_TODOS_NOMBRES_AMIGOS](https://github.com/user-attachments/assets/f359ba6d-c4a1-4058-bc34-19bfda572222)
 </p>
 
 <b>Funcionalidad 4.1:</b> Si ponemos el cursor encima de un nombre, el contenedor del nombre cambia de color.
 <p align="center">
 
-![MANTENER_CURSOR_NOMBRE](https://github.com/user-attachments/assets/b65bf46b-3dbd-4d21-be43-d1d8cf6f9929)
+![MANTERNER_CURSOR_NOMBRE](https://github.com/user-attachments/assets/9c8b6240-0f1d-4779-bc2f-8aec0e34332b)
 </p>
 
 
 <b>Funcionalidad 4.2:</b> Si hacemos click en un nombre, lo borra.
 <p align="center">
 
-![BORRAMOS_UN_NOMBRE](https://github.com/user-attachments/assets/f2fa9392-a90f-4839-a080-1c1d94efe36e)
+![BORRAMOS_NOMBRE_AMIGO](https://github.com/user-attachments/assets/8f87a465-4b9f-488f-ad34-c8107de2e59a)
 </p>
 
-<b>Funcionalidad 5: </b> Presionamos el boton para sortear amigos.
+<b>Funcionalidad 5: </b> Presionamos el boton para sortear al unico amigo ganador.
 <p align="center">
 
-![SORTEO_NOMBRES](https://github.com/user-attachments/assets/81453940-74db-405d-95b2-ce5b28aa4b77)
+![SORTEAMOS_UNICO_GANADOR](https://github.com/user-attachments/assets/315ccc7c-84d5-4728-808a-3e0646c14bc6)
 </p>
+
+<b>Funcionalidad 6: </b> Si estas en la pestaña "Sorteo entre amigos", al hacer clic en sortear amigo, saldra la lista de intercambio de regalos.
+<p align="center">
+
+![SORTEAMOS_INTERCAMBIO_DE_REGALOS](https://github.com/user-attachments/assets/4feb7101-6510-491e-8cde-b49171f96139)
+</p>
+
 
 <b>Funcionalidad 6:</b> Si quieres sortear de nuevo, no es necesario actualizar la pagina, solo haz click en "Reiniciar"
 <p align="center">
   
-![REINICIAR_SORTEO](https://github.com/user-attachments/assets/8984dadc-f293-4307-9b11-3e7d66d51144)
+![REINICIAR_SORTEO](https://github.com/user-attachments/assets/fc05ccbd-82c5-4cad-bbce-c2222ae5731e)
 </p>
 
 
